@@ -205,3 +205,82 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ── Data & outputs (grandes/gerados)
+data/raw/**
+data/interim/**
+outputs/**
+reports/**
+# manter amostras pequenas
+!data/sample/**
+!outputs/sample/**
+
+# formatos de dados pesados
+*.csv
+*.parquet
+*.feather
+*.h5
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Word / Office
+*.doc
+*.docx
+*.odt
+*.sxw
+*.rtf
+*.txt
+*.xml
+
+# Excel / Office
+*.xlsx
+*.xlsm
+*.xlsb
+*.xl*
+*.ods
+*.stc
+*.dbf
+*.xls
+*.xlt
+*.xml
+
+
+# manter templates pequenos
+!data/sample/*.xlsx
+
+# Power BI
+*.pbix
+*.pbit
+# manter apenas templates finais se quiseres
+!powerbi/templates/*.pbit
+
+# Modelos/artefactos ML
+*.joblib
+*.pkl
+mlruns/
+models/
+.checkpoints/
+
+# Logs/temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# SO
+.DS_Store
+Thumbs.db
+
+# IDEs/editores
+.vscode/
+.idea/
+
+# Segredos/credenciais (nunca comitar)
+.secrets/
+*.env.*
+*.key
+*.pem
+*.p12
+*.crt
