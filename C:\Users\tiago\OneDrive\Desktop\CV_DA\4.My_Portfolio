@@ -1,0 +1,21 @@
+# Sales Analysis with SQLite + Pandas
+
+Python script that creates a local `sales.db` (SQLite), inserts sample sales data, loads it into Pandas, computes `revenue = quantity * price`, prints basic stats, and plots **Revenue by Category**.
+
+## Tech Stack
+- Python 3.10+
+- SQLite (`sqlite3`)
+- pandas, matplotlib, seaborn
+
+## Setup
+```bash
+# optional: create venv
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# macOS/Linux
+source .venv/bin/activate
+
+pip install -r requirements.txt
+# or
+pip install pandas matplotlib seaborn
