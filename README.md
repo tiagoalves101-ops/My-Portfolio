@@ -1,35 +1,57 @@
-# 📊 Data Analysis Portfolio  
+📊 Company Sales Analysis
 
-This repository brings together projects in **Python, SQL, Power BI, and Advanced Excel**, showcasing skills in **data cleaning, transformation, visualization, dashboard creation, and applied machine learning**.  
+This project demonstrates how to use Python, SQLite, and Pandas to analyze sales data and generate insights with simple visualizations.
 
----
+📂 Files
 
-## 🚀 Main Technologies  
-- **Python**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
-- **SQL**: queries, data modeling, and automation  
-- **Power BI**: dashboards, DAX, KPIs, and time intelligence  
-- **Advanced Excel**: Power Query, pivot tables, complex formulas  
+Company_Sales_Analysis.py → Python script that:
 
----
+Creates a SQLite database (sales.db) if it doesn’t exist
 
-## 📂 Project Structure  
-- diferent public datasets used  
-- organized Python scripts and/or SQL Querys  
-- `outputs/` → dashboards, reports, and visualizations with Power BI, Python and/or Excel 
+Inserts sample sales data
 
----
+Loads data into a Pandas DataFrame
 
-## 📌 Featured Projects  
-1. **Sales Analysis** → business performance insights  
-2. **Financial Data** → indicators, forecasts, and reports  
-3. **Power BI Dashboards** → interactive KPI visualization  
-4. **Advanced Excel** → analysis with Power Query
-5. **Python Scripts for Data Cleaning & Transformation** → analysis ¨Dashboards
+Calculates revenue per product and category
 
----
+Generates statistics and visualizations with Matplotlib + Seaborn
 
-## 🛠️ How to Run (Python)  
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/tiagoalves101-ops/My-Portfolio.git
+sales.db → SQLite database storing the company’s sales data.
+
+🚀 Features
+
+Automatic creation of the sales table
+
+Insertion of example sales records
+
+Calculation of total revenue (quantity × price)
+
+Summary statistics with Pandas
+
+Visualization of revenue by category
+
+📊 Example Output
+
+Descriptive statistics of sales data
+
+Revenue by category (aggregated with Pandas groupby)
+
+Bar chart showing revenue per category
+
+🔧 Requirements
+
+Make sure you have Python installed and the following libraries:
+
+pip install pandas matplotlib seaborn
+
+▶️ How to Run
+
+Clone this repository or download the files.
+
+Run the script:
+
+python Company_Sales_Analysis.py
+
+
+The script will create/update the database and display the analysis results and charts.
 
