@@ -55,3 +55,6 @@ python Company_Sales_Analysis.py
 
 The script will create/update the database and display the analysis results and charts.
 
+📂 [Download Project File](https://github.com/tiagoalves101-ops/Sales_Analysis/blob/main/sales.db)
+
+
